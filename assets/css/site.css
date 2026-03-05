@@ -69,10 +69,107 @@ margin-top:50px;
 font-size:14px;
 }
 
+/* ---------- UPDATED LINK COLOR ---------- */
+
 a{
-color:#000;
+color:#2f7f7a;
+text-decoration:none;
 }
 
 a:hover{
 text-decoration:underline;
+}
+
+/* ---------- HOMEPAGE ELEMENTS ---------- */
+
+.tagline{
+font-size:18px;
+color:#555;
+margin-bottom:40px;
+}
+
+.article-list{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.article-list li{
+margin-bottom:18px;
+font-size:18px;
+}
+
+.article-list small{
+color:#888;
+font-size:14px;
+}
+
+.section-divider{
+margin:40px 0;
+border-top:1px solid #e6f3f2;
+}
+
+footer{
+margin-top:80px;
+font-size:14px;
+color:#777;
+}
+
+
+/* ----- READABILITY IMPROVEMENT ----- */
+
+p,
+li{
+max-width:65ch;
+}
+
+h1,
+h2{
+max-width:30ch;
+}
+
+
+/* ---------- PRODUCT RECOMMENDATION BOX ---------- */
+
+.product-box{
+border:1px solid #e6f3f2;
+background:#ffffff;
+padding:25px;
+margin:35px 0;
+border-radius:6px;
+}
+
+.product-title{
+font-size:20px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.product-meta{
+font-size:14px;
+color:#666;
+margin-bottom:15px;
+}
+
+.product-features{
+margin:15px 0 20px 20px;
+font-size:17px;
+}
+
+.product-features li{
+margin-bottom:8px;
+}
+
+.product-button{
+display:inline-block;
+padding:10px 18px;
+background:#2f7f7a;
+color:#ffffff;
+font-size:16px;
+border-radius:4px;
+text-decoration:none;
+}
+
+.product-button:hover{
+background:#1f5f5b;
 }
